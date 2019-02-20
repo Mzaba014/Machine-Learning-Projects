@@ -8,7 +8,7 @@ The first model to be added to my repo. This sequential ANN model built in Keras
 numbers from 0-9 and labels them accordingly with a ~98% accuracy rate.
 
 ## Keras CNN Handwriting Recognition Model
-![alt text](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjpydrumsvgAhWY9Z4KHTBsDbAQjRx6BAgBEAU&url=https%3A%2F%2Fadeshpande3.github.io%2FA-Beginner%2527s-Guide-To-Understanding-Convolutional-Neural-Networks%2F&psig=AOvVaw3wqeWuOXRMc0YoVlVQ9EYl&ust=1550782780413546)  
+![alt text](https://adeshpande3.github.io/assets/Cover.png)  
 This model differs from the ANN version in that we analyze the image in the form of 3x3 filters. This approach which allows for receptive fields grants the model the ability to identify features such as edges and curves, which is not possible in a 768-bit bitstream as used in the ANN.
 
 This model is more accurate and capable but substantially slower.
