@@ -5,7 +5,7 @@ Repo for aggregating my Machine Learning projects in Keras/Tensorflow. Will be e
 ![alt text](imgs/handwriting.PNG)
 ![alt text](imgs/ANN_accuracy.PNG)  
 The first model to be added to my repo. This sequential ANN model built in Keras analyzes human handwriting, specifically
-numbers from 0-9 and labels them accordingly with a ~98% accuracy rate.
+numbers from 0-9 and labels them accordingly with a ~98% accuracy rate. This model essentially works by feeding a 768-bit bitstream into a series of nodes which use continually updating weights to try and find the best combination. This leads the model to be incapable of things like analyzing a 3x3 block and realizing that a C-like arrangement of pixels may be a curve etc. Essentially, this cannot detect features but with that in mind, it stil produces fairly impressive accuracy.
 
 ## Keras CNN Handwriting Recognition Model
 ![alt text](https://adeshpande3.github.io/assets/Cover.png)  
